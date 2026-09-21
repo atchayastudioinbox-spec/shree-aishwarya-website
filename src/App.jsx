@@ -9,7 +9,7 @@ import {
   Lightbulb,
   Phone,
   MapPin,
-  Instagram,
+  Camera,
   Share2
 } from 'lucide-react';
 
@@ -228,7 +228,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <p className="text-sm">© {new Date().getFullYear()} Shree Aishwarya Interior & Designers. All rights reserved.</p>
           <div className="flex space-x-4">
-            <a href="#" className="hover:text-amber-500 transition"><Instagram size={20} /></a>
+            <a href="#" className="hover:text-amber-500 transition"><Camera size={20} /></a>
             <a href="#" className="hover:text-amber-500 transition"><Share2 size={20} /></a>
           </div>
         </div>
